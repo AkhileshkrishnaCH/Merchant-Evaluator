@@ -1,0 +1,262 @@
+[
+  {
+    "id": "merchant-001",
+    "name": "TechGadgets Pro",
+    "metrics": {
+      "revenue_growth": 35,
+      "transaction_trend": 28,
+      "average_order_value": 320,
+      "customer_review_trend": 3.8,
+      "repeat_purchase_rate": 72,
+      "login_frequency": 25,
+      "days_since_last_activity": 2,
+      "feature_adoption_score": 85,
+      "support_sentiment": 9,
+      "renewal_history": 8,
+      "refund_rate": 2,
+      "delivery_failure_rate": 1
+    },
+    "historical_data": {
+      "revenue_history": [
+        { "month": "Jan", "value": 42000 },
+        { "month": "Feb", "value": 45000 },
+        { "month": "Mar", "value": 48500 },
+        { "month": "Apr", "value": 52000 },
+        { "month": "May", "value": 55000 },
+        { "month": "Jun", "value": 58500 }
+      ],
+      "transaction_history": [
+        { "month": "Jan", "value": 1200 },
+        { "month": "Feb", "value": 1350 },
+        { "month": "Mar", "value": 1420 },
+        { "month": "Apr", "value": 1500 },
+        { "month": "May", "value": 1580 },
+        { "month": "Jun", "value": 1650 }
+      ],
+      "login_history": [
+        { "month": "Jan", "value": 24 },
+        { "month": "Feb", "value": 26 },
+        { "month": "Mar", "value": 25 },
+        { "month": "Apr", "value": 27 },
+        { "month": "May", "value": 25 },
+        { "month": "Jun", "value": 28 }
+      ],
+      "review_history": [
+        { "month": "Jan", "value": 4.2 },
+        { "month": "Feb", "value": 4.3 },
+        { "month": "Mar", "value": 4.5 },
+        { "month": "Apr", "value": 4.4 },
+        { "month": "May", "value": 4.6 },
+        { "month": "Jun", "value": 4.7 }
+      ]
+    }
+  },
+  {
+    "id": "merchant-002",
+    "name": "Fashion Hub",
+    "metrics": {
+      "revenue_growth": 18,
+      "transaction_trend": 12,
+      "average_order_value": 185,
+      "customer_review_trend": 1.5,
+      "repeat_purchase_rate": 55,
+      "login_frequency": 18,
+      "days_since_last_activity": 5,
+      "feature_adoption_score": 62,
+      "support_sentiment": 7,
+      "renewal_history": 6,
+      "refund_rate": 8,
+      "delivery_failure_rate": 4
+    },
+    "historical_data": {
+      "revenue_history": [
+        { "month": "Jan", "value": 28000 },
+        { "month": "Feb", "value": 29500 },
+        { "month": "Mar", "value": 31000 },
+        { "month": "Apr", "value": 30000 },
+        { "month": "May", "value": 32500 },
+        { "month": "Jun", "value": 34000 }
+      ],
+      "transaction_history": [
+        { "month": "Jan", "value": 850 },
+        { "month": "Feb", "value": 880 },
+        { "month": "Mar", "value": 920 },
+        { "month": "Apr", "value": 900 },
+        { "month": "May", "value": 950 },
+        { "month": "Jun", "value": 980 }
+      ],
+      "login_history": [
+        { "month": "Jan", "value": 16 },
+        { "month": "Feb", "value": 18 },
+        { "month": "Mar", "value": 17 },
+        { "month": "Apr", "value": 19 },
+        { "month": "May", "value": 18 },
+        { "month": "Jun", "value": 20 }
+      ],
+      "review_history": [
+        { "month": "Jan", "value": 3.8 },
+        { "month": "Feb", "value": 3.9 },
+        { "month": "Mar", "value": 4.0 },
+        { "month": "Apr", "value": 4.1 },
+        { "month": "May", "value": 4.0 },
+        { "month": "Jun", "value": 4.2 }
+      ]
+    }
+  },
+  {
+    "id": "merchant-003",
+    "name": "Quick Bites Delivery",
+    "metrics": {
+      "revenue_growth": 5,
+      "transaction_trend": 3,
+      "average_order_value": 95,
+      "customer_review_trend": 0.5,
+      "repeat_purchase_rate": 40,
+      "login_frequency": 14,
+      "days_since_last_activity": 12,
+      "feature_adoption_score": 45,
+      "support_sentiment": 6,
+      "renewal_history": 4,
+      "refund_rate": 12,
+      "delivery_failure_rate": 9
+    },
+    "historical_data": {
+      "revenue_history": [
+        { "month": "Jan", "value": 18000 },
+        { "month": "Feb", "value": 18500 },
+        { "month": "Mar", "value": 17800 },
+        { "month": "Apr", "value": 19000 },
+        { "month": "May", "value": 18200 },
+        { "month": "Jun", "value": 19500 }
+      ],
+      "transaction_history": [
+        { "month": "Jan", "value": 620 },
+        { "month": "Feb", "value": 640 },
+        { "month": "Mar", "value": 610 },
+        { "month": "Apr", "value": 650 },
+        { "month": "May", "value": 630 },
+        { "month": "Jun", "value": 660 }
+      ],
+      "login_history": [
+        { "month": "Jan", "value": 12 },
+        { "month": "Feb", "value": 14 },
+        { "month": "Mar", "value": 13 },
+        { "month": "Apr", "value": 15 },
+        { "month": "May", "value": 14 },
+        { "month": "Jun", "value": 14 }
+      ],
+      "review_history": [
+        { "month": "Jan", "value": 3.5 },
+        { "month": "Feb", "value": 3.6 },
+        { "month": "Mar", "value": 3.4 },
+        { "month": "Apr", "value": 3.7 },
+        { "month": "May", "value": 3.6 },
+        { "month": "Jun", "value": 3.8 }
+      ]
+    }
+  },
+  {
+    "id": "merchant-004",
+    "name": "Budget Electronics",
+    "metrics": {
+      "revenue_growth": -8,
+      "transaction_trend": -12,
+      "average_order_value": 65,
+      "customer_review_trend": -0.8,
+      "repeat_purchase_rate": 22,
+      "login_frequency": 6,
+      "days_since_last_activity": 35,
+      "feature_adoption_score": 25,
+      "support_sentiment": 4,
+      "renewal_history": 2,
+      "refund_rate": 18,
+      "delivery_failure_rate": 12
+    },
+    "historical_data": {
+      "revenue_history": [
+        { "month": "Jan", "value": 15000 },
+        { "month": "Feb", "value": 14200 },
+        { "month": "Mar", "value": 13800 },
+        { "month": "Apr", "value": 13000 },
+        { "month": "May", "value": 12500 },
+        { "month": "Jun", "value": 12000 }
+      ],
+      "transaction_history": [
+        { "month": "Jan", "value": 480 },
+        { "month": "Feb", "value": 450 },
+        { "month": "Mar", "value": 420 },
+        { "month": "Apr", "value": 400 },
+        { "month": "May", "value": 380 },
+        { "month": "Jun", "value": 360 }
+      ],
+      "login_history": [
+        { "month": "Jan", "value": 10 },
+        { "month": "Feb", "value": 8 },
+        { "month": "Mar", "value": 7 },
+        { "month": "Apr", "value": 6 },
+        { "month": "May", "value": 5 },
+        { "month": "Jun", "value": 4 }
+      ],
+      "review_history": [
+        { "month": "Jan", "value": 3.2 },
+        { "month": "Feb", "value": 3.0 },
+        { "month": "Mar", "value": 2.8 },
+        { "month": "Apr", "value": 2.9 },
+        { "month": "May", "value": 2.7 },
+        { "month": "Jun", "value": 2.5 }
+      ]
+    }
+  },
+  {
+    "id": "merchant-005",
+    "name": "Old School Books",
+    "metrics": {
+      "revenue_growth": -30,
+      "transaction_trend": -35,
+      "average_order_value": 28,
+      "customer_review_trend": -1.5,
+      "repeat_purchase_rate": 10,
+      "login_frequency": 2,
+      "days_since_last_activity": 65,
+      "feature_adoption_score": 12,
+      "support_sentiment": 2,
+      "renewal_history": 1,
+      "refund_rate": 32,
+      "delivery_failure_rate": 22
+    },
+    "historical_data": {
+      "revenue_history": [
+        { "month": "Jan", "value": 8000 },
+        { "month": "Feb", "value": 6500 },
+        { "month": "Mar", "value": 5200 },
+        { "month": "Apr", "value": 4800 },
+        { "month": "May", "value": 4000 },
+        { "month": "Jun", "value": 3500 }
+      ],
+      "transaction_history": [
+        { "month": "Jan", "value": 220 },
+        { "month": "Feb", "value": 180 },
+        { "month": "Mar", "value": 150 },
+        { "month": "Apr", "value": 130 },
+        { "month": "May", "value": 110 },
+        { "month": "Jun", "value": 90 }
+      ],
+      "login_history": [
+        { "month": "Jan", "value": 5 },
+        { "month": "Feb", "value": 4 },
+        { "month": "Mar", "value": 3 },
+        { "month": "Apr", "value": 2 },
+        { "month": "May", "value": 2 },
+        { "month": "Jun", "value": 1 }
+      ],
+      "review_history": [
+        { "month": "Jan", "value": 2.8 },
+        { "month": "Feb", "value": 2.5 },
+        { "month": "Mar", "value": 2.2 },
+        { "month": "Apr", "value": 2.0 },
+        { "month": "May", "value": 1.8 },
+        { "month": "Jun", "value": 1.5 }
+      ]
+    }
+  }
+]

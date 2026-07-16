@@ -1,0 +1,14 @@
+{
+  "revenue_growth": 0.18,
+  "transaction_trend": 0.12,
+  "average_order_value": 0.06,
+  "customer_review_trend": 0.08,
+  "repeat_purchase_rate": 0.10,
+  "login_frequency": 0.08,
+  "days_since_last_activity": 0.06,
+  "feature_adoption_score": 0.06,
+  "support_sentiment": 0.08,
+  "renewal_history": 0.06,
+  "refund_rate": 0.06,
+  "delivery_failure_rate": 0.06
+}

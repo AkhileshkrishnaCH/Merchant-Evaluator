@@ -1,0 +1,23 @@
+{
+  "normalization": {
+    "revenue_growth": { "min": -50, "max": 100, "inverted": false },
+    "transaction_trend": { "min": -50, "max": 100, "inverted": false },
+    "average_order_value": { "min": 0, "max": 500, "inverted": false },
+    "customer_review_trend": { "min": -2, "max": 5, "inverted": false },
+    "repeat_purchase_rate": { "min": 0, "max": 100, "inverted": false },
+    "login_frequency": { "min": 0, "max": 30, "inverted": false },
+    "days_since_last_activity": { "min": 0, "max": 90, "inverted": true },
+    "feature_adoption_score": { "min": 0, "max": 100, "inverted": false },
+    "support_sentiment": { "min": 1, "max": 10, "inverted": false },
+    "renewal_history": { "min": 0, "max": 10, "inverted": false },
+    "refund_rate": { "min": 0, "max": 50, "inverted": true },
+    "delivery_failure_rate": { "min": 0, "max": 50, "inverted": true }
+  },
+  "critical": {
+    "refund_rate_critical": 20,
+    "delivery_failure_critical": 15,
+    "sentiment_critical": 3,
+    "inactivity_warning_days": 45,
+    "revenue_decline_threshold": -10
+  }
+}
