@@ -30,7 +30,7 @@ export default function ReviewChart({ data, isDark }: ReviewChartProps) {
               borderRadius: 12, padding: '8px 12px', boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
             }}
             labelStyle={{ color: textColor, fontSize: 12, marginBottom: 4 }}
-            formatter={(value: number) => [value.toFixed(1), 'Rating']}
+            formatter={(value: any) => [Number(value).toFixed(1), 'Rating']}
           />
           <Line type="monotone" dataKey="value" stroke={lineColor} strokeWidth={2.5}
             dot={{ fill: lineColor, stroke: isDark ? '#0a0a1a' : '#fff', strokeWidth: 2, r: 4 }}

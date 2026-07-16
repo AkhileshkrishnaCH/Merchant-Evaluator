@@ -35,7 +35,7 @@ export default function RevenueChart({ data, isDark }: RevenueChartProps) {
               borderRadius: 12, padding: '8px 12px', boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
             }}
             labelStyle={{ color: textColor, fontSize: 12, marginBottom: 4 }}
-            formatter={(value: number) => [`$${value.toLocaleString()}`, 'Revenue']}
+            formatter={(value: any) => [`$${Number(value).toLocaleString()}`, 'Revenue']}
           />
           <Area type="monotone" dataKey="value" stroke={strokeColor} strokeWidth={2.5}
             fill="url(#revenueGradient)" animationDuration={1500} />

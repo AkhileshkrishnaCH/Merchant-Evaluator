@@ -28,7 +28,7 @@ export default function LoginActivityChart({ data, isDark }: LoginActivityChartP
               borderRadius: 12, padding: '8px 12px', boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
             }}
             labelStyle={{ color: textColor, fontSize: 12, marginBottom: 4 }}
-            formatter={(value: number) => [value, 'Logins']}
+            formatter={(value: any) => [value, 'Logins']}
           />
           <Line type="monotone" dataKey="value" stroke={lineColor} strokeWidth={2.5}
             dot={{ fill: lineColor, stroke: isDark ? '#0a0a1a' : '#fff', strokeWidth: 2, r: 4 }}

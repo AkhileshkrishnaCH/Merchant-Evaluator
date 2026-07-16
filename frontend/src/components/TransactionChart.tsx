@@ -34,7 +34,7 @@ export default function TransactionChart({ data, isDark }: TransactionChartProps
               borderRadius: 12, padding: '8px 12px', boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
             }}
             labelStyle={{ color: textColor, fontSize: 12, marginBottom: 4 }}
-            formatter={(value: number) => [value.toLocaleString(), 'Transactions']}
+            formatter={(value: any) => [Number(value).toLocaleString(), 'Transactions']}
           />
           <Bar dataKey="value" fill="url(#barGradient)" radius={[6, 6, 0, 0]} animationDuration={1500} />
         </BarChart>
